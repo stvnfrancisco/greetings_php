@@ -3,6 +3,7 @@ $friend_name = $_GET["recipient"];
 $my_name = $_GET["sender"];
 $plural_noun = $_GET["nouns"];
 $place = $_GET["place"];
+$verb = $_GET["verb"];
 ?>
 <!DOCTYPE html>
 <html>
@@ -39,6 +40,14 @@ $place = $_GET["place"];
                 <label for="recipient">Your friend's name</label>
                 <input id="recipient" name="recipient" class="form-control" type="text">
             </div>
+            <div class="form-group">
+                <label for="place">Place</label>
+                <input id="place" name="place" class="form-control" type="text">
+            </div>
+              <div class="form-group">
+                <label for="verb">Action word</label>
+                <input id="verb" name="verb" class="form-control" type="text">
+              </div>
             <div class="form-group">
                 <label for="nouns">Plural noun</label>
                 <input id="nouns" name="nouns" class="form-control" type="text">
